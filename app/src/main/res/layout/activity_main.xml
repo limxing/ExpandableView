@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:expandableView="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.limxing.expandableview.MainActivity">
+
+    <com.limxing.expandableview.view.ExpandableView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        expandableView:viewTitle="我是标题"
+        expandableView:viewTitleImage="@drawable/fwxinxi">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="sdiasbf说不定腐败的萨发挥 v 啊稻盛和夫 v 啊交水电费 vu 牙刷不符合技术打法 v 华师大谁的粉丝奋斗史发生分  " />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/fengjing" />
+        </LinearLayout>
+    </com.limxing.expandableview.view.ExpandableView>
+
+    <com.limxing.expandableview.view.ExpandableView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        expandableView:viewTitle="我是标题"
+        expandableView:viewTitleImage="@drawable/fwxinxi">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="sdiasbf说不定腐败的萨发挥 v 啊稻盛和夫 v 啊交水电费 vu 牙刷不符合技术打法 v 华师大谁的粉丝奋斗史发生分  " />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/fengjing" />
+        </LinearLayout>
+    </com.limxing.expandableview.view.ExpandableView>
+</LinearLayout>

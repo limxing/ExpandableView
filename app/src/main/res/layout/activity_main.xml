@@ -12,6 +12,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         expandableView:viewTitle="我是标题"
+        expandableView:viewTitleSize="15sp"
         expandableView:viewTitleImage="@drawable/fwxinxi">
 
         <LinearLayout
@@ -23,7 +24,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="sdiasbf说不定腐败的萨发挥 v 啊稻盛和夫 v 啊交水电费 vu 牙刷不符合技术打法 v 华师大谁的粉丝奋斗史发生分  " />
+                android:text="我是标题我是标题我是标题我是标题我是标题我是标题我是标题我是标题我是标题我是标题我是标题我是标题我是标题我是标题我是标题我是标题我是标题我是标题我是标题我是标题我是标题我是标题我是标题我是标题我是标题" />
 
             <ImageView
                 android:layout_width="match_parent"
@@ -48,7 +49,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="sdiasbf说不定腐败的萨发挥 v 啊稻盛和夫 v 啊交水电费 vu 牙刷不符合技术打法 v 华师大谁的粉丝奋斗史发生分  " />
+                android:text="我是标题我是标题我是标题我是标题我是标题我是标题我是标题我是标题我是标题我是标题我是标题我是标题我是标题我是标题我是标题我是标题我是标题我是标题我是标题我是标题我是标题我是标题我是标题我是标题我是标题" />
 
             <ImageView
                 android:layout_width="match_parent"

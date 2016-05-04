@@ -11,6 +11,8 @@ android ExpandableView能够让子View隐藏和展开，伸缩菜单
         expandableView:viewTitle="我是标题"
         expandableView:viewTitleSize="15sp"
         expandableView:viewTitleImage="@drawable/fwxinxi">
+        
+        <..anything you want../>
 </com.limxing.expandableview.view.ExpandableView>
 
 ```

@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         expandableView:viewTitle="我是标题"
-        expandableView:viewTitleSize="15sp"
+        expandableView:viewTitleSize="18sp"
         expandableView:viewTitleImage="@drawable/fwxinxi">
 
         <LinearLayout

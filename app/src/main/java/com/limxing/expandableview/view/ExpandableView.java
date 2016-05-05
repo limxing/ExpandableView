@@ -208,10 +208,10 @@ public class ExpandableView extends LinearLayout implements View.OnClickListener
             initTitleImage();
         }
         mTitlt = typedArray.getString(R.styleable.ExpandableView_viewTitle);
-//可以自行调节字体的大小,sp转px貌似很大啊
+//可以自行调节字体的大小,sp转px貌似很大啊,所以使用px转dp
         title_size = typedArray.getDimension(R.styleable.ExpandableView_viewTitleSize,
                 50);
-        title_size=DisplayUtil.sp2px(mContext, title_size/8);
+        title_size=DisplayUtil.px2dip(mContext, title_size);
         title_color = typedArray.getColor(R.styleable.ExpandableView_viewTitleColor, getResources().getColor(R.color.color_909090));
         line_color = typedArray.getColor(R.styleable.ExpandableView_viewTitleLineColor, getResources().getColor(R.color.color_bbbbbb));
         if (mTitlt != null) {
